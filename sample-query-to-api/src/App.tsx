@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Topics from './Topics';
 
 function App() {
   return (
@@ -9,8 +10,13 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <h3>sample query to API</h3>
+        <h2>sample query to API</h2>
       </header>
+      <article>
+        <section>
+          <Topics/>
+        </section>
+      </article>
     </div>
   );
 }
