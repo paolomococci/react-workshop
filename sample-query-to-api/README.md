@@ -1,8 +1,9 @@
 # sample-query-to-api
 
-## necessary packages
+## sample query to API thanks to the class approach
+
+### necessary package
 
 ```text
-yarn add eslint-plugin-react-hooks --dev
 yarn add axios
 ```
