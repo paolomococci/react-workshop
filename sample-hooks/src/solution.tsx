@@ -16,10 +16,10 @@ const Solution: FC = () => {
             <article>
                 <h4>Counter with hooks</h4>
                 <section>
-                    <output>Counter: (counter)</output>
+                    <output>Counter: {counter}</output>
                 </section>
                 <section>
-                    <button onClick={() => handleCounter('add')}>Add one</button>
+                    <button onClick={() => handleCounter('add')}>Add one</button><br/>
                     <button onClick={() => handleCounter('subtract')}>Subtract one</button>
                 </section>
             </article>
