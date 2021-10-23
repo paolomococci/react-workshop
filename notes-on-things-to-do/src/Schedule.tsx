@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { FC, useEffect, memo } from 'react';
 import Task from './Task';
 
 export type Pointer = {
@@ -14,7 +14,7 @@ interface Props {
 const Schedule: FC<Props> = ({ pointers, handleDelete }) => {
 
     useEffect(() => {
-        console.log('Rendering <Schedule/>')
+        console.log('rendering <Schedule/>')
     })
 
     return (
@@ -26,4 +26,4 @@ const Schedule: FC<Props> = ({ pointers, handleDelete }) => {
     )
 }
 
-export default Schedule
+export default memo(Schedule)

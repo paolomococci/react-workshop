@@ -9,7 +9,7 @@ interface Props {
 const Task: FC<Props> = ({ id, task, handleDelete }) => {
 
     useEffect(() => {
-        console.log('Rendering <Task/>', task)
+        console.log('rendering <Task/>', task)
     })
     
     return (
