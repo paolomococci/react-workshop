@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Notes from './Notes';
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
         <h2>
           How use reducer work
         </h2>
+        <article>
+          <section>
+            <Notes id={0}/>
+          </section>
+        </article>
       </header>
     </div>
   );

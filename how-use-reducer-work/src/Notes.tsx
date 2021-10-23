@@ -1,4 +1,5 @@
 import { FC, useEffect, memo } from 'react';
+import Schedule from './Schedule';
 
 interface Props {
     id: number
@@ -8,11 +9,11 @@ const Notes: FC<Props> = ({ id }) => {
 
     useEffect(() => {
         console.log('rendering <Notes/>')
-    })
+    });
     
     return (
-        <li>{id} <button>some</button></li>
-    )
+        <Schedule id={0}/>
+    );
 }
 
-export default memo(Notes)
+export default memo(Notes);

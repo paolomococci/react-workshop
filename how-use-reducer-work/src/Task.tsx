@@ -8,11 +8,11 @@ const Task: FC<Props> = ({ id }) => {
 
     useEffect(() => {
         console.log('rendering <Task/>')
-    })
+    });
     
     return (
         <li>{id} <button>some</button></li>
-    )
+    );
 }
 
-export default memo(Task)
+export default memo(Task);
