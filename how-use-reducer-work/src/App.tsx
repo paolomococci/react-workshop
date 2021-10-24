@@ -15,7 +15,7 @@ function App() {
         </h2>
         <article>
           <section>
-            <Notes id={0}/>
+            <Notes/>
           </section>
         </article>
       </header>
