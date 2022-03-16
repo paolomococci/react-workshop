@@ -19,3 +19,5 @@ const GeoLocate: FC<Props> = ({
     </div>
   </div>
 )
+
+export default GeoLocate
