@@ -9,6 +9,17 @@ useEffect (() => {
   }
 }, [])
 
-function handleSuccess(handleSuccess: any) {
-  throw new Error("Function not implemented.");
+const handleSuccess = ({
+  coords: {
+    latitude,
+    longitude
+  }
+} : {
+  coords: {
+    latitude: number;
+    longitude: number
+  }
+}) => {
+  setLatitude(latitude)
+  setLongitude(longitude)
 }
