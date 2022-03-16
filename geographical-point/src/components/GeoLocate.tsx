@@ -1,8 +1,8 @@
 import { FC } from "react";
 
 type Props = {
-  latitude: number
-  longitude: number
+  latitude: number | null
+  longitude: number | null
 }
 
 const GeoLocate: FC<Props> = ({
