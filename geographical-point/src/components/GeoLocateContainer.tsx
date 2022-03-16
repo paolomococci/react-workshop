@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import GeoLocate from "./GeoLocate";
 
 const GeoLocateContainer = () => {
   const [latitude, setLatitude] = useState<number | null>(null)
@@ -9,9 +10,9 @@ const GeoLocateContainer = () => {
       latitude,
       longitude
     }
-  } : {
+  }: {
     coords: {
-      latitude: number;
+      latitude: number
       longitude: number
     }
   }) => {
@@ -24,4 +25,11 @@ const GeoLocateContainer = () => {
       navigator.geolocation.getCurrentPosition(handleSuccess)
     }
   }, [])
+
+  return (
+    <GeoLocate latitude={latitude} longitude={longitude} />
+  )
 }
+
+export default GeoLocateContainer
+
