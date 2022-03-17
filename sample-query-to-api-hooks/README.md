@@ -8,3 +8,9 @@
 yarn add eslint-plugin-react-hooks --dev
 yarn add axios
 ```
+
+## to start in development mode
+
+```shell
+npm start
+```
