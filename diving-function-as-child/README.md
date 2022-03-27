@@ -13,3 +13,9 @@ Once inside the project folder, the following commands can be given.
 ```shell
 npm start
 ```
+
+### bundle the application into static files for production
+
+```shell
+npm run build
+```
