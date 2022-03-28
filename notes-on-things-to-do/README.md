@@ -6,6 +6,8 @@
 npx create-react-app notes-of-things-to-do --template typescript
 ```
 
+## during application development
+
 Once inside the project folder, the following commands can be given.
 
 ### start in development mode
