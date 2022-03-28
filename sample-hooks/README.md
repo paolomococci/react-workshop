@@ -22,7 +22,7 @@ npm start
 npm run build
 ```
 
-### finally, to remove this tool and copy the build dependencies, configuration files and scripts to the app directory
+## finally, to remove this tool and copy the build dependencies, configuration files and scripts to the app directory
 
 ```shell
 npm run eject
