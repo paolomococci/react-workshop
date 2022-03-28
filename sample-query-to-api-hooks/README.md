@@ -15,6 +15,8 @@ yarn add eslint-plugin-react-hooks --dev
 yarn add axios
 ```
 
+## during application development
+
 Once inside the project folder, the following commands can be given.
 
 ### start in development mode
@@ -29,7 +31,7 @@ npm start
 npm run build
 ```
 
-### finally, to remove this tool and copy the build dependencies, configuration files and scripts to the app directory
+## finally, to remove this tool and copy the build dependencies, configuration files and scripts to the app directory
 
 ```shell
 npm run eject
