@@ -47,3 +47,7 @@ npm i jsonwebtoken
 ```shell
 npm i pg
 ```
+
+```shell
+npm i pg-hstore
+```
