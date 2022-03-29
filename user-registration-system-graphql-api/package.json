@@ -39,5 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "User Registration System developed thanks to GraphQL.",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Paolo Mococci",
+  "license": "MIT"
 }
