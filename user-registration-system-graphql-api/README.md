@@ -43,3 +43,7 @@ npm i express
 ```shell
 npm i jsonwebtoken
 ```
+
+```shell
+npm i pg
+```
