@@ -51,3 +51,7 @@ npm i pg
 ```shell
 npm i pg-hstore
 ```
+
+```shell
+npm i sequelize
+```
