@@ -23,3 +23,7 @@ npm i @contentpi/lib
 ```shell
 npm i @graphql-tools/load-files
 ```
+
+```shell
+npm i @graphql-tools/merge
+```
