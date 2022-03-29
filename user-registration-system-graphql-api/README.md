@@ -67,3 +67,7 @@ npm i husky --save-dev
 ```shell
 npm i jest --save-dev
 ```
+
+```shell
+npm i prettier --save-dev
+```
