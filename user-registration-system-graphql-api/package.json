@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@contentpi/lib": "^1.0.10",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -42,7 +43,6 @@
   },
   "description": "User Registration System developed thanks to GraphQL.",
   "main": "index.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "Paolo Mococci",
   "license": "MIT"
