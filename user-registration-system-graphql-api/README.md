@@ -55,3 +55,7 @@ npm i pg-hstore
 ```shell
 npm i sequelize
 ```
+
+```shell
+npm i ts-node
+```
