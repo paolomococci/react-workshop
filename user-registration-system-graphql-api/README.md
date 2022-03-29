@@ -15,3 +15,7 @@ npm init --yes
 ```
 
 ### and proceed to install some packages
+
+```shell
+npm i @contentpi/lib
+```
