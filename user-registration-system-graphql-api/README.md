@@ -27,3 +27,7 @@ npm i @graphql-tools/load-files
 ```shell
 npm i @graphql-tools/merge
 ```
+
+```shell
+npm i apollo-server
+```
