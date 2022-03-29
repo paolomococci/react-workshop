@@ -19,3 +19,7 @@ npm init --yes
 ```shell
 npm i @contentpi/lib
 ```
+
+```shell
+npm i @graphql-tools/load-files
+```
