@@ -39,3 +39,7 @@ npm i dotenv
 ```shell
 npm i express
 ```
+
+```shell
+npm i jsonwebtoken
+```
