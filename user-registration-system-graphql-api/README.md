@@ -13,3 +13,5 @@ npx create-react-app user-registration-system-graphql-api --template typescript
 ```shell
 npm init --yes
 ```
+
+### and proceed to install some packages
