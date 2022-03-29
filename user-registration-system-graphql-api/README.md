@@ -59,3 +59,7 @@ npm i sequelize
 ```shell
 npm i ts-node
 ```
+
+```shell
+npm i husky --save-dev
+```
