@@ -31,3 +31,7 @@ npm i @graphql-tools/merge
 ```shell
 npm i apollo-server
 ```
+
+```shell
+npm i dotenv
+```
