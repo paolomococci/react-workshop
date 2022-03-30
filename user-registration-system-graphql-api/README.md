@@ -91,3 +91,7 @@ npm i typescript --save-dev
 ```shell
 npm i eslint --save-dev
 ```
+
+```shell
+npm i @types/jsonwebtoken --save-dev
+```
