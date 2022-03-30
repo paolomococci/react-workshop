@@ -4,6 +4,10 @@
     "noImplicitAny": true,
     "outDir": "dist",
     "sourceMap": true,
+    "typeRoots": [
+      "./src/@types", 
+      "./node_modules/@types"
+    ],
     "target": "es6",
     "lib": [
       "dom",
