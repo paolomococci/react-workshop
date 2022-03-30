@@ -87,3 +87,7 @@ npm i ts-node-dev --save-dev
 ```shell
 npm i typescript --save-dev
 ```
+
+```shell
+npm i eslint --save-dev
+```
