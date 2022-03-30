@@ -79,3 +79,7 @@ npm i sequelize-mock --save-dev
 ```shell
 npm i ts-jest --save-dev
 ```
+
+```shell
+npm i ts-node-dev --save-dev
+```
