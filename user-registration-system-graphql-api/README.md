@@ -83,3 +83,7 @@ npm i ts-jest --save-dev
 ```shell
 npm i ts-node-dev --save-dev
 ```
+
+```shell
+npm i typescript --save-dev
+```
