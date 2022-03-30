@@ -75,3 +75,7 @@ npm i prettier --save-dev
 ```shell
 npm i sequelize-mock --save-dev
 ```
+
+```shell
+npm i ts-jest --save-dev
+```
