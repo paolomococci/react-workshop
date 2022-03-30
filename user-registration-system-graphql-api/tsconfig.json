@@ -3,6 +3,7 @@
     "baseUrl": "./src",
     "noImplicitAny": true,
     "outDir": "dist",
+    "sourceMap": true,
     "target": "es6",
     "lib": [
       "dom",
