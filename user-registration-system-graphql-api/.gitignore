@@ -24,6 +24,7 @@ yarn-error.log*
 /backend
 package-lock.json
 HELP.md
+.env
 *.png
 *.ico
 *.svg
