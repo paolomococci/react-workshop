@@ -43,3 +43,6 @@ const {
   security, server
 } = config
 
+export const $db: Db = db
+export const $security: Security = security
+export const $server: Server = server
