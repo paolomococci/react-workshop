@@ -40,7 +40,8 @@ const db: Db = {
 }
 
 const {
-  security, server
+  security, 
+  server
 } = config
 
 export const $db: Db = db
