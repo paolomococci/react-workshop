@@ -3,7 +3,14 @@ import config from './config.json'
 
 dotenv.config()
 
-type Db = {}
+type Db = {
+  dialect: string
+  host: string
+  port: string
+  database: string
+  username: string
+  password: string
+}
 
 type Security = {}
 
@@ -18,7 +25,14 @@ const {
   DB_PASSWORD = '',
 } = process.env
 
-const db: Db = {}
+const db: Db = {
+  dialect: DB_DIALECT,
+  port: DB_PORT,
+  host: DB_HOST,
+  database: DB_DATABASE,
+  username: DB_USERNAME,
+  password: DB_PASSWORD
+}
 
 const {
   security, server
