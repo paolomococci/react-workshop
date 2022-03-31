@@ -21,7 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # more
-/backend
 config.json
 package-lock.json
 HELP.md
