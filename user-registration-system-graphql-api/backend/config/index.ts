@@ -12,7 +12,10 @@ type Db = {
   password: string
 }
 
-type Security = {}
+type Security = {
+  secretKey: string
+  expiresIn: string
+}
 
 type Server = {}
 
