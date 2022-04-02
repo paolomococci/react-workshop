@@ -20,13 +20,13 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
             msg: 'the username field accepts only alphanumeric characters'
           },
           len: {
-            args: [8, 20],
+            args: [8, 20], 
             msg: 'the field username accepts eight to twenty characters'
           }
         }
       },
       password: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING, 
         allowNull: false
       },
       email: {
@@ -35,13 +35,15 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
         unique: true,
         validate: {
           isEmail: {
-            args: true,
+            args: true, 
             msg: 'invalid email'
           }
         }
       },
       privilege: {
-
+        type: DataTypes.STRING, 
+        allowNull: false, 
+        defaultValue: 'user'
       },
       active: {
 
