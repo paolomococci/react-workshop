@@ -5,7 +5,10 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
   const User = sequelize.define(
     'User', {
       id: {
-        
+        primaryKey: true, 
+        allowNull: false, 
+        type: DataTypes.UUID, 
+        defaultValue: DataTypes.UUIDV4()
       },
       username: {
 
@@ -23,6 +26,6 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
 
       }
     },
-
+    
   )
 }
