@@ -10,3 +10,11 @@ const {
   username, 
   password 
 } = $db
+
+const uri = `${dialect}://${username}:${password}@${host}:${port}/${database}`
+
+const sequelize = new Sequelize(uri)
+
+const models: IModels = {}
+
+export default models
