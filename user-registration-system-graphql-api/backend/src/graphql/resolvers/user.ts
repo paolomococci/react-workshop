@@ -12,8 +12,14 @@ export default {
       { at }: { at: string },
       { models }: { models: IModels }
     ): Promise<any> => {
-      
+
     }
   },
-  Mutation: {}
+  Mutation: {
+    createUser: (
+      _: any,
+      { input }: { input: ICreateUserInput },
+      { models }: { models: IModels }
+    ): IUser => models.User.create({ ...input }),
+  }
 }
