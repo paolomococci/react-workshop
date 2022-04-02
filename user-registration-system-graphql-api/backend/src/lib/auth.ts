@@ -2,10 +2,6 @@ import { AuthenticationError } from 'apollo-server'
 import { encrypt, isPasswordMatch } from '@contentpi/lib'
 import { IUser, IModels, IAuthPayload } from '../types'
 import { createToken } from './jwt'
-import { AuthenticationError } from 'apollo-server'
-import { encrypt, isPasswordMatch } from '@contentpi/lib'
-import { IUser, IModels, IAuthPayload } from '../types'
-import { createToken } from './jwt'
 
 export const getUserBy = async (
   where: any, 
@@ -24,11 +20,17 @@ export const doLogin = async (
   models: IModels
 ): Promise<IAuthPayload> => {
   const user = await getUserBy({ email }, models)
-  if (!user) {}
+  if (!user) {
+    throw new AuthenticationError('invalid credentials')
+  }
   const passwordMatch = isPasswordMatch(encrypt(password), user.password)
   const isActive = user.active
-  if (!passwordMatch) {}
-  if (!isActive) {}
+  if (!passwordMatch) {
+    throw new AuthenticationError('invalid credentials')
+  }
+  if (!isActive) {
+    throw new AuthenticationError('credentials no longer valid')
+  }
   const [token] = await createToken(user)
   return { token }
 }
