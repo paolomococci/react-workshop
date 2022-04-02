@@ -9,7 +9,10 @@ type User {
   updatedAt: Datetime!
 }
 
-type Query {}
+type Query {
+  getUsers: [User!]
+  getUserData(at: String!): User!
+}
 
 type Mutation {}
 
