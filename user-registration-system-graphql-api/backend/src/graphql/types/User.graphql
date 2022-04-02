@@ -14,7 +14,10 @@ type Query {
   getUserData(at: String!): User!
 }
 
-type Mutation {}
+type Mutation {
+  createUser(input: CreateUserInput): User!
+  login(input: LoginInput): AuthPayload!
+}
 
 input CreateUserInput {}
 
