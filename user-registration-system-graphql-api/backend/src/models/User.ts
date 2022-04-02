@@ -26,7 +26,8 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
         }
       },
       password: {
-
+        type: DataTypes.STRING,
+        allowNull: false
       },
       email: {
 
