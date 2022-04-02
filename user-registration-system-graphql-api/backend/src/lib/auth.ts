@@ -11,6 +11,13 @@ export const getUserBy = async (
   where: any, 
   models: IModels
 ): Promise<IUser> => {
+}
+
+export const doLogin = async (
+  email: string, 
+  password: string, 
+  models: IModels
+): Promise<IAuthPayload> => {
   const user = await getUserBy({ email }, models)
   if (!user) {}
   const passwordMatch = isPasswordMatch(encrypt(password), user.password)
@@ -20,9 +27,3 @@ export const getUserBy = async (
   const [token] = await createToken(user)
   return { token }
 }
-
-export const doLogin = async (
-  email: string, 
-  password: string, 
-  models: IModels
-): Promise<IAuthPayload> => {}
