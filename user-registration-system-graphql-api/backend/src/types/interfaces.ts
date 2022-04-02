@@ -11,7 +11,12 @@ export interface IDataTypes {
   FLOAT: number
 }
 
-export interface IUser extends User, Sequelize {}
+export interface IUser extends User, Sequelize {
+  id: string
+  token?: string
+  createdAt?: Date
+  updatedAt?: Date
+}
 
 export interface ICreateUserInput extends User {}
 
