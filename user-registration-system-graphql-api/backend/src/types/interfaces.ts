@@ -27,6 +27,8 @@ export interface ILoginInput {
   password: string
 }
 
-export interface IAuthPayload {}
+export interface IAuthPayload {
+  token: string
+}
 
 export interface IModels {}
