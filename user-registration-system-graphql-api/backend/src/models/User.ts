@@ -51,6 +51,13 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
         defaultValue: false
       }
     },
-    
+    {
+      hooks: {
+        beforeCreate: (user: IUser): void => {
+          user.password = encrypt(user.password)
+        }
+      }
+    }
   )
+  return User
 }
