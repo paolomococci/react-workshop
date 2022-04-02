@@ -18,9 +18,14 @@ export interface IUser extends User, Sequelize {
   updatedAt?: Date
 }
 
-export interface ICreateUserInput extends User {}
+export interface ICreateUserInput extends User {
 
-export interface ILoginInput {}
+}
+
+export interface ILoginInput {
+  email: string
+  password: string
+}
 
 export interface IAuthPayload {}
 
