@@ -31,4 +31,7 @@ export interface IAuthPayload {
   token: string
 }
 
-export interface IModels {}
+export interface IModels {
+  User: any
+  sequelize: any
+}
