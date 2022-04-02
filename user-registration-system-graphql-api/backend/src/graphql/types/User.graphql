@@ -32,4 +32,6 @@ input LoginInput {
   password: String!
 }
 
-type AuthPayload {}
+type AuthPayload {
+  token: String!
+}
