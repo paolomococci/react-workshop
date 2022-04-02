@@ -33,7 +33,14 @@ export async function getUserData(accessToken: string): Promise<any> {
 export const createToken = async (user: IUser): Promise<string[]> => {
   const { id, username, password, email, privilege, active } = user
   const token = setBase64(`${encrypt($security.secretKey)}${password}`)
-  const userData = {}
+  const userData = {
+    id, 
+    username, 
+    email, 
+    privilege, 
+    active, 
+    token
+  }
   const _createToken = jwt.sign(
     {
       data: setBase64(userData)
