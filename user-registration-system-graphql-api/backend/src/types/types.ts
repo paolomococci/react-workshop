@@ -6,4 +6,9 @@ export type User = {
   active: boolean
 }
 
-export type Sequelize = {}
+export type Sequelize = {
+  _defaults?: any
+  name?: string
+  options?: any
+  associate?: any
+}
