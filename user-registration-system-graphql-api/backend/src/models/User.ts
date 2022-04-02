@@ -30,7 +30,15 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
         allowNull: false
       },
       email: {
-
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+        validate: {
+          isEmail: {
+            args: true,
+            msg: 'invalid email'
+          }
+        }
       },
       privilege: {
 
