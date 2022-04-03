@@ -95,3 +95,9 @@ npm i eslint --save-dev
 ```shell
 npm i @types/jsonwebtoken --save-dev
 ```
+
+further dependency request
+
+```shell
+npm i babel-jest --save-dev
+```
