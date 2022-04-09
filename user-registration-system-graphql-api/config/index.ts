@@ -48,6 +48,6 @@ const $db: Db = db
 const $security: Security = security
 const $server: Server = server
 
-export {
+module.exports = {
   $db, $security, $server
 }
