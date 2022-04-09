@@ -1,5 +1,5 @@
-import dotenv from 'dotenv'
-import config from './config.json'
+const dotenv = require("dotenv")
+const config = require("./config.json")
 
 dotenv.config()
 
