@@ -1,5 +1,5 @@
 import { Sequelize } from 'sequelize'
-import { $db } from '../../config'
+const { $db } = require('../../config')
 import { IModels } from '../types'
 
 const { 
