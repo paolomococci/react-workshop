@@ -1,6 +1,11 @@
 {
   "name": "user-registration-system-graphql-api",
   "version": "0.1.0",
+  "description": "User Registration System developed thanks to GraphQL.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Paolo Mococci",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@contentpi/lib": "^1.0.10",
@@ -51,11 +56,6 @@
       "last 1 safari version"
     ]
   },
-  "description": "User Registration System developed thanks to GraphQL.",
-  "main": "index.js",
-  "keywords": [],
-  "author": "Paolo Mococci",
-  "license": "MIT",
   "devDependencies": {
     "@types/jsonwebtoken": "^8.5.8",
     "babel-jest": "^27.5.1",
