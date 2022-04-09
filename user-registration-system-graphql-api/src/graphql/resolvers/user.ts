@@ -2,7 +2,7 @@ import { getUserData } from '../../lib/jwt'
 import { doLogin, getUserBy } from '../../lib/auth'
 import { IUser, ICreateUserInput, IModels, ILoginInput, IAuthPayload } from '../../types'
 
-export default {
+const users = {
   Query: {
     getUsers: (
       _: any, args: any, { models }: { models: IModels }
@@ -47,3 +47,5 @@ export default {
     ): Promise<IAuthPayload> => doLogin(input.email, input.password, models)
   }
 }
+
+export default users
