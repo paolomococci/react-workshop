@@ -1,6 +1,7 @@
 {
   "name": "user-registration-system-graphql-api",
   "version": "0.1.0",
+  "type": "commonjs",
   "description": "User Registration System developed thanks to GraphQL.",
   "main": "index.js",
   "keywords": [
