@@ -117,3 +117,9 @@ npm run development
 ```shell
 npm run build
 ```
+
+## in an attempt to resolve a syntax error
+
+```shell
+npm install --save-dev @babel/cli @babel/core @babel/preset-env
+```
