@@ -2,7 +2,7 @@ import { getUserData } from '../../lib/jwt'
 import { doLogin, getUserBy } from '../../lib/auth'
 import { IUser, ICreateUserInput, IModels, ILoginInput, IAuthPayload } from '../../types'
 
-const users = {
+const userQueryAndMutation = {
   Query: {
     getUsers: (
       _: any, args: any, { models }: { models: IModels }
@@ -48,4 +48,4 @@ const users = {
   }
 }
 
-export default users
+export default userQueryAndMutation
