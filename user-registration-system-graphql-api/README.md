@@ -109,7 +109,7 @@ Once inside the project folder, the following commands can be given.
 ### start in development mode
 
 ```shell
-npm start
+npm run development
 ```
 
 ### bundle the application into static files for production
