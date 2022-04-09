@@ -1,4 +1,4 @@
-import { Sequelize } from 'sequelize'
+const { Sequelize } = require("sequelize")
 const { $db } = require('../../config')
 import { IModels } from '../types'
 
@@ -20,4 +20,6 @@ const models: IModels = {
   sequelize
 }
 
-export default models
+module.exports = {
+  models, uri
+}
