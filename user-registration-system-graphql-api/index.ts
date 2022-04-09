@@ -1,6 +1,6 @@
-import { onError } from 'apollo-link-error'
-import { ApolloServer } from 'apollo-server'
-import { makeExecutableSchema } from '@graphql-tools/schema'
+const { onError } = require("apollo-link-error")
+const { ApolloServer } = require("apollo-server")
+const { makeExecutableSchema } = require("@graphql-tools/schema")
 
 import { $server } from './config'
 import models from './src/models'
