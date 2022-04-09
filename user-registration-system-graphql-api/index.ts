@@ -1,4 +1,3 @@
-const { onError } = require("apollo-link-error")
 const { ApolloServer } = require("apollo-server")
 const { makeExecutableSchema } = require("@graphql-tools/schema")
 
@@ -6,17 +5,6 @@ import { $server } from './config'
 import models from './src/models'
 import resolvers from './src/graphql/resolvers'
 import typeDefs from './src/graphql/types'
-
-const link = onError((
-  { graphQLErrors, networkError }:{[key:string]:any}
-) => {
-  if (graphQLErrors) {
-    graphQLErrors.forEach(({ message, locations, path }) => console.log(
-      `[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`
-    ))
-  }
-  if (networkError) console.log(`[Network error]: ${networkError}`)
-})
 
 const alter = true
 
