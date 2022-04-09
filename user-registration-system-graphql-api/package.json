@@ -41,8 +41,7 @@
     "build": "tsc -p .",
     "lint": "eslint . --ext .js,.tsx,.ts",
     "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
-    "test": "jest src",
-    "eject": "react-scripts eject"
+    "test": "jest src"
   },
   "eslintConfig": {
     "extends": [
