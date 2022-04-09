@@ -7,7 +7,9 @@ import models from './src/models'
 import resolvers from './src/graphql/resolvers'
 import typeDefs from './src/graphql/types'
 
-const link = onError(({ graphQLErrors, networkError }) => {
+const link = onError((
+  { graphQLErrors, networkError }:{[key:string]:any}
+) => {
   if (graphQLErrors) {
     graphQLErrors.forEach(({ message, locations, path }) => console.log(
       `[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`
@@ -32,7 +34,9 @@ const apolloServer = new ApolloServer({
 })
 
 models.sequelize.sync({ alter, force }).then(() => {
-  apolloServer.listen($server.port).then(({ url }) => { 
+  apolloServer.listen($server.port).then((
+    { url }:{[key:string]:any}
+  ) => { 
     console.log(`this application responds to ${url}`)
    })
 })
