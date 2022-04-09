@@ -46,7 +46,7 @@ const {
 
 const $db: Db = db
 const $security: Security = security
-const $server: Server = server
+var $server: Server = server
 
 module.exports = {
   $db, $security, $server
