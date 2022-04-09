@@ -40,9 +40,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "development": "npm run build && ts-node-dev src/index.ts",
+    "development": "npm run build && ts-node-dev index.ts",
     "start": "npm run build && ts-node dist/index.ts",
-    "build": "babel src/index.ts -d dist",
+    "build": "babel index.ts -d dist",
     "lint": "eslint . --ext .js,.tsx,.ts",
     "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
     "test": "jest src"
