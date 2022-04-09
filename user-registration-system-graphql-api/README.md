@@ -127,4 +127,5 @@ npm install --save-dev @babel/cli @babel/core @babel/preset-env
 ```shell
 npm i polyfill
 npm i apollo-link-error
+npm i apollo-link-http
 ```
