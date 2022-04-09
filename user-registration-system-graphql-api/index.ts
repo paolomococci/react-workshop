@@ -2,7 +2,7 @@ const { ApolloServer } = require("apollo-server")
 const { makeExecutableSchema } = require("@graphql-tools/schema")
 
 const $server = require("./config")
-import models from './src/models'
+const models = require("./src/models")
 import resolvers from './src/graphql/resolvers'
 import typeDefs from './src/graphql/types'
 
