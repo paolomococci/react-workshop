@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "User Registration System developed thanks to GraphQL.",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "API",
+    "GraphQL",
+    "React"
+  ],
   "author": "Paolo Mococci",
   "license": "MIT",
   "private": true,
