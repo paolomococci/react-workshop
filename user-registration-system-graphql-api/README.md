@@ -112,13 +112,9 @@ Once inside the project folder, the following commands can be given.
 npm run development
 ```
 
-### bundle the application into static files for production
-
 ```shell
 npm run build
 ```
-
-## in an attempt to resolve a syntax error
 
 ```shell
 npm install --save-dev @babel/cli @babel/core @babel/preset-env
