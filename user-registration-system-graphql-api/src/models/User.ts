@@ -1,7 +1,7 @@
 import { encrypt } from '@contentpi/lib'
 import { IUser, IDataTypes } from '../types'
 
-export default (sequelize: any, DataTypes: IDataTypes): IUser => {
+const user = (sequelize: any, DataTypes: IDataTypes): IUser => {
   const User = sequelize.define(
     'User', {
       id: {
@@ -61,3 +61,5 @@ export default (sequelize: any, DataTypes: IDataTypes): IUser => {
   )
   return User
 }
+
+export default user
