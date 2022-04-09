@@ -4,7 +4,7 @@ const { makeExecutableSchema } = require("@graphql-tools/schema")
 const $server = require("./config")
 const models = require("./src/models")
 const resolvers = './src/graphql/resolvers'
-import typeDefs from './src/graphql/types'
+const typeDefs = './src/graphql/types'
 
 const alter = true
 
