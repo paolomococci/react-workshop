@@ -30,4 +30,8 @@ export const doLogin = async (
   if (!user) {
     throw new AuthenticationError('invalid credentials')
   }
+  const passwordMatch = isPasswordMatch(
+    encrypt(password),
+    user.password
+  )
 }
