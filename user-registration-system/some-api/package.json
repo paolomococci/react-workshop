@@ -11,6 +11,7 @@
   "description": "User Registration System API",
   "main": "index.js",
   "scripts": {
+    "development": "ts-node-dev src/index.ts",
     "start": "ts-node dist/index.js",
     "build": "tsc -p .",
     "lint": "eslint . --ext .js,.tsx,.ts",
