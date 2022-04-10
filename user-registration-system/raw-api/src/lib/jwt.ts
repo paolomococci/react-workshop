@@ -8,7 +8,25 @@ const { secretKey } = $security
 export function jwtVerify(
   accessToken: string,
   cb: any
-): void {}
+): void {
+  jwt.verify(
+    accessToken,
+    secretKey,
+    (
+      error: any,
+      accessTokenData: any = {}
+    ) => {
+      const {
+        data: user
+      } = accessTokenData
+      if (error || !user) {
+        return cb(false)
+      }
+      const userData = getBase64(user)
+      return cb(userData)
+    }
+  )
+}
 
 export async function getUserData(
   accessToken: string
