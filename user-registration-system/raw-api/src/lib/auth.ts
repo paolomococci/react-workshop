@@ -41,4 +41,8 @@ export const doLogin = async (
   if (!isActive) {
     throw new AuthenticationError('this credentials is not active')
   }
+  const [token] = await createToken(user)
+  return {
+    token
+  }
 }
