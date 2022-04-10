@@ -9,3 +9,7 @@ export function jwtVerify(
   accessToken: string,
   cb: any
 ): void {}
+
+export async function getUserData(
+  accessToken: string
+) Promise<any> {}
