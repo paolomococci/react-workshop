@@ -11,6 +11,7 @@
   "description": "User Registration System API",
   "main": "index.js",
   "scripts": {
+    "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
     "test": "jest src"
   },
   "dependencies": {
