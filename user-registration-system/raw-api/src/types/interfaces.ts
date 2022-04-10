@@ -8,6 +8,10 @@ export interface IUser extends User, Sequelize {
   updatedAt?: date
 }
 
+export interface ICreateUserInput extends User {
+  
+}
+
 /* Sequelize */
 export interface IDataTypes {
   UUID: string
