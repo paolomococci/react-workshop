@@ -20,4 +20,11 @@ export const doLogin = async (
   email: string,
   password: string,
   models: IModels
-): Promise<IAuthPayload> => {}
+): Promise<IAuthPayload> => {
+  const user = await getUserById(
+    {
+      email
+    },
+    models
+  )
+}
