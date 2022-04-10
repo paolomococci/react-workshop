@@ -27,4 +27,7 @@ export const doLogin = async (
     },
     models
   )
+  if (!user) {
+    throw new AuthenticationError('invalid credentials')
+  }
 }
