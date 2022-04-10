@@ -32,3 +32,9 @@ export interface IDataTypes {
   DATE: string
   FLOAT: number
 }
+
+/* Models */
+export interface IModels {
+  User: any
+  Sequelize: any
+}
