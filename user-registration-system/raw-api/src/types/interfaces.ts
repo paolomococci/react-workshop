@@ -17,6 +17,10 @@ export interface ILoginInput {
   password: string
 }
 
+export interface IAuthPayload {
+  token: string
+}
+
 /* Sequelize */
 export interface IDataTypes {
   UUID: string
