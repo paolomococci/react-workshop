@@ -7,3 +7,5 @@ export const getUserBy = async (
   where: any,
   models: IModels
 ): Promise<IUser> => {}
+
+export const doLogin = async (): Promise<> => {}
