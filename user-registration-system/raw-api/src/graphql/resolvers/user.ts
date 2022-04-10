@@ -9,3 +9,8 @@ import {
   ILoginInput,
   IAuthPayload
 } from '../../types'
+
+import {
+  doLogin,
+  getUserBy
+} from '../../lib/auth'
