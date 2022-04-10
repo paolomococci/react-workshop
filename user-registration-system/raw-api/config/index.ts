@@ -44,3 +44,9 @@ const {
   security,
   server
 } = config
+
+/* exports */
+
+export const $db: Db = db
+export const $security: Security = security
+export const $server: Server = server
