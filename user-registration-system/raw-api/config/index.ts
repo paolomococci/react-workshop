@@ -17,4 +17,6 @@ type Security = {
   expiresIn: string
 }
 
-type Server = {}
+type Server = {
+  port: number
+}
