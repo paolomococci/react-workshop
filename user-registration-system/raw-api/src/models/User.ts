@@ -11,7 +11,11 @@ export default (
       username: {},
       password: {},
       email: {},
-      privilege: {},
+      privilege: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: 'user'
+      },
       active: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
