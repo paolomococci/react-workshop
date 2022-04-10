@@ -16,6 +16,8 @@ export async function getUserData(
   const UserPromise = new Promise(
     resolve => jwtVerify(accessToken, (user: any) => resolve(user))
   )
+  const user = await UserPromise
+  return user
 }
 
 export const createToken = async (user: IUser): Promise<string[]> => {
@@ -47,4 +49,5 @@ export const createToken = async (user: IUser): Promise<string[]> => {
       expiresIn: $security.expiresIn
     }
   )
+  return Promise.all([_createToken])
 }
