@@ -4,3 +4,8 @@ import { $security } from '../../config'
 import { IUser } from '../types'
 
 const { secretKey } = $security
+
+export function jwtVerify(
+  accessToken: string,
+  cb: any
+): void {}
