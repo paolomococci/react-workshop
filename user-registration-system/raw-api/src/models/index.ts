@@ -10,3 +10,5 @@ const {
   username,
   password
 } = $db
+
+const uri = `${dialect}://${username}:${password}@${host}:${port}/${database}`
