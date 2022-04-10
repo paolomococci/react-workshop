@@ -14,3 +14,8 @@ import {
   doLogin,
   getUserBy
 } from '../../lib/auth'
+
+export default {
+  Query: {},
+  Mutation: {}
+}
