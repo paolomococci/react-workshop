@@ -8,7 +8,7 @@ cd some-api
 npm init --yes
 ```
 
-## proceed to install some packages
+## proceed to install some dependencies
 
 ```shell
 npm i @contentpi/lib
@@ -53,6 +53,8 @@ npm i sequelize
 ```shell
 npm i ts-node
 ```
+
+### and some development dependencies
 
 ```shell
 npm i husky --save-dev
