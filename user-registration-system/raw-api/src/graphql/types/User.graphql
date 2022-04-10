@@ -31,4 +31,7 @@ input CreateUserInput {
   active: Boolean!
 }
 
-input LoginInput {}
+input LoginInput {
+  email: String!
+  password: String!
+}
