@@ -12,7 +12,11 @@ export default (
       password: {},
       email: {},
       privilege: {},
-      active: {}
+      active: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        defaultValue: false
+      }
     },
     {
       hooks: {
