@@ -12,3 +12,5 @@ const {
 } = $db
 
 const uri = `${dialect}://${username}:${password}@${host}:${port}/${database}`
+
+const sequelize = new Sequelize(uri)
