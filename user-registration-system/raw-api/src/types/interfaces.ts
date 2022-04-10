@@ -36,5 +36,5 @@ export interface IDataTypes {
 /* Models */
 export interface IModels {
   User: any
-  Sequelize: any
+  sequelize: any
 }
