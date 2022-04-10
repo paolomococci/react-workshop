@@ -34,4 +34,11 @@ export const doLogin = async (
     encrypt(password),
     user.password
   )
+  const isActive = user.active
+  if (!passwordMatch) {
+    throw new AuthenticationError('invalid credentials')
+  }
+  if (!isActive) {
+    throw new AuthenticationError('this credentials is not active')
+  }
 }
