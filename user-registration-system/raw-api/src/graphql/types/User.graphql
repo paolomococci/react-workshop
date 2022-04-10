@@ -19,7 +19,9 @@ type Mutation {
   login(input: LoginInput): AuthPayload!
 }
 
-type AuthPayload {}
+type AuthPayload {
+  token: String!
+}
 
 input createUserInput {}
 
