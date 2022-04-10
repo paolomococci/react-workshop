@@ -1,11 +1,20 @@
-type User {}
+type User {
+  id: UUID!
+  username: String!
+  password: String!
+  email: String!
+  privilege: String!
+  active: Boolean!
+  createAt: Datetime!
+  updatedAt: Datetime!
+}
 
 type Query {}
 
 type Mutation {}
 
+type AuthPayload {}
+
 input createUserInput {}
 
 input LoginInput {}
-
-type AuthPayload {}
