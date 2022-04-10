@@ -1,0 +1,11 @@
+type User {}
+
+type Query {}
+
+type Mutation {}
+
+input createUserInput {}
+
+input LoginInput {}
+
+type AuthPayload {}
