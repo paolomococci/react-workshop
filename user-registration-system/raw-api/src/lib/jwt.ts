@@ -13,7 +13,9 @@ export function jwtVerify(
 export async function getUserData(
   accessToken: string
 ): Promise<any> {
-  const UserPromise
+  const UserPromise = new Promise(
+    resolve => jwtVerify(accessToken, (user: any) => resolve(user))
+  )
 }
 
 export const createToken = async (user: IUser): Promise<string[]> => {
