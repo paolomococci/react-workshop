@@ -1,3 +1,4 @@
 /node_modules
 HELP.md
 package-lock.json
+.env
