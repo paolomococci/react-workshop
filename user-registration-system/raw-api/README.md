@@ -14,7 +14,7 @@ npm init --yes
 npm i @contentpi/lib @graphql-tools/load-files @graphql-tools/merge apollo-server dotenv express jsonwebtoken pg pg-hstore sequelize ts-node
 ```
 
-and
+### and some development packages
 
 ```shell
 npm i husky jest prettier sequelize-mock ts-jest ts-node-dev typescript eslint @types/jsonwebtoken --save-dev
