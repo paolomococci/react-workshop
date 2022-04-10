@@ -10,7 +10,17 @@ export default (
       id: {},
       username: {},
       password: {},
-      email: {},
+      email: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+        validate: {
+          isEmail: {
+            args: true,
+            msg: 'invalid format of this email address'
+          }
+        }
+      },
       privilege: {
         type: DataTypes.STRING,
         allowNull: false,
