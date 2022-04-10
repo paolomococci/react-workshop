@@ -16,6 +16,12 @@ import {
 } from '../../lib/auth'
 
 export default {
-  Query: {},
-  Mutation: {}
+  Query: {
+    getUsers: () => {},
+    getUserData: () => {}
+  },
+  Mutation: {
+    createUser: () => {},
+    login: () => {}
+  }
 }
