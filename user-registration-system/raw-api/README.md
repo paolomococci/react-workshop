@@ -11,47 +11,7 @@ npm init --yes
 ## proceed to install some packages
 
 ```shell
-npm i @contentpi/lib
-```
-
-```shell
-npm i @graphql-tools/load-files
-```
-
-```shell
-npm i @graphql-tools/merge
-```
-
-```shell
-npm i apollo-server
-```
-
-```shell
-npm i dotenv
-```
-
-```shell
-npm i express
-```
-
-```shell
-npm i jsonwebtoken
-```
-
-```shell
-npm i pg
-```
-
-```shell
-npm i pg-hstore
-```
-
-```shell
-npm i sequelize
-```
-
-```shell
-npm i ts-node
+npm i @contentpi/lib @graphql-tools/load-files @graphql-tools/merge apollo-server dotenv express jsonwebtoken pg pg-hstore sequelize ts-node
 ```
 
 ```shell
