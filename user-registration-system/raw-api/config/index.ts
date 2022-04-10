@@ -39,3 +39,8 @@ const db: Db = {
   username: DB_USERNAME,
   password: DB_PASSWORD
 }
+
+const {
+  security,
+  server
+} = config
