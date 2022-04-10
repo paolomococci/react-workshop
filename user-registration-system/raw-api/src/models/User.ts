@@ -4,4 +4,6 @@ import { IUser, IDataTypes } from '../types'
 export default (
   sequelize: any,
   DataTypes: IDataTypes
-): IUser => {}
+): IUser => {
+  const User = sequelize.define()
+}
