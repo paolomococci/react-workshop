@@ -7,7 +7,12 @@ export default (
 ): IUser => {
   const User = sequelize.define(
     User, {
-      id: {},
+      id: {
+        primaryKey: true,
+        allowNull: false,
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4()
+      },
       username: {
         type: DataTypes.STRING,
         allowNull: false,
