@@ -8,7 +8,21 @@ export default (
   const User = sequelize.define(
     User, {
       id: {},
-      username: {},
+      username: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+        validate: {
+          isAlphanumeric: {
+            args: true,
+            msg: 'username field just accepts alphanumeric characters'
+          },
+          len: {
+            args: [8, 24],
+            msg: 'username field must be from eight to twenty four characters'
+          }
+        }
+      },
       password: {
         type: DataTypes.STRING,
         allowNull: false
