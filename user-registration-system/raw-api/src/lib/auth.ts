@@ -8,4 +8,8 @@ export const getUserBy = async (
   models: IModels
 ): Promise<IUser> => {}
 
-export const doLogin = async (): Promise<> => {}
+export const doLogin = async (
+  email: string,
+  password: string,
+  models: IModels
+): Promise<IAuthPayload> => {}
