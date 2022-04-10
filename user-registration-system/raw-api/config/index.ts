@@ -30,3 +30,12 @@ const {
   DB_USERNAME = '',
   DB_PASSWORD = ''
 } = process.env
+
+const db: Db = {
+  dialect: DB_DIALECT,
+  port: DB_PORT,
+  host: DB_HOST,
+  database: DB_DATABASE,
+  username: DB_USERNAME,
+  password: DB_PASSWORD
+}
