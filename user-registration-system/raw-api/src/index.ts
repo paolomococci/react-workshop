@@ -30,16 +30,8 @@ models.sequelize.sync(
     alter,
     force
   }
-).then(
-  () => {
-    apolloServer.listen(
-      $server.port
-    ).then(
-      ({
-        url
-      })
-    ) => {
-      console.log(`server listening on ${url}`)
-    })
-  }
-)
+).then(() => {
+  apolloServer.listen($server.port).then(({ url }) => {
+    console.log(`server listening on ${url}`)
+  })
+})
