@@ -20,7 +20,9 @@ export default {
     getUsers: (
       _: any,
       args: any,
-      context: {
+      {
+        models
+      }: {
         models: IModels
       }
     ): IUser[] => models.User.findAll(),
@@ -31,7 +33,9 @@ export default {
       }: {
         at: string
       },
-      context: {
+      {
+        models
+      }: {
         models: IModels
       }
     ): Promise<any> => {
