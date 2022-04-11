@@ -46,6 +46,9 @@ export default {
           },
           models
         )
+        if (user) {
+          return currentConnectedUser
+        }
       }
     }
   },
