@@ -24,7 +24,19 @@ export default {
         models: IModels
       }
     ): IUser[] => models.User.findAll(),
-    getUserData: () => {}
+    getUserData: async (
+      _: any,
+      {
+        at
+      }: {
+        at: string
+      },
+      context: {
+        models: IModels
+      }
+    ): Promise<any> => {
+      const currentConnectedUser = await getUserData(at)
+    }
   },
   Mutation: {
     createUser: () => {},
