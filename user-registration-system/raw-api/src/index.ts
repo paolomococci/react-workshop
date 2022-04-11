@@ -22,4 +22,5 @@ const apolloServer = new ApolloServer(
   }
 )
 
-cost alter = true
+const alter = true
+const force = false
