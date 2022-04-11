@@ -61,7 +61,23 @@ export default {
     }
   },
   Mutation: {
-    createUser: () => {},
+    createUser: (
+      _: any,
+      {
+        input
+      }: {
+        input: ICreateUserInput
+      },
+      {
+        models
+      }: {
+        models: IModels
+      }
+    ): IUser => models.User.create(
+      {
+        ...input
+      }
+    ),
     login: () => {}
   }
 }
