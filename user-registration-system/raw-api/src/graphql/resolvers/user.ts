@@ -17,7 +17,13 @@ import {
 
 export default {
   Query: {
-    getUsers: () => {},
+    getUsers: (
+      _: any,
+      args: any,
+      context: {
+        models: IModels
+      }
+    ): IUser[] => models.User.findAll(),
     getUserData: () => {}
   },
   Mutation: {
