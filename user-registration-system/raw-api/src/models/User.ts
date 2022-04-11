@@ -6,7 +6,7 @@ export default (
   DataTypes: IDataTypes
 ): IUser => {
   const User = sequelize.define(
-    User, {
+    'User', {
       id: {
         primaryKey: true,
         allowNull: false,
