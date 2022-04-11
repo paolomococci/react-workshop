@@ -35,9 +35,9 @@ models.sequelize.sync(
     apolloServer.listen(
       $server.port
     ).then(
-      {
+      ({
         url
-      }
+      })
     ) => {
       console.log(`server listening on ${url}`)
     }
