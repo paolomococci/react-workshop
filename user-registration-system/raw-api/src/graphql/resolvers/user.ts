@@ -12,7 +12,7 @@ import {
 
 import {
   doLogin,
-  getUserBy
+  getUserById
 } from '../../lib/auth'
 
 export default {
@@ -41,7 +41,7 @@ export default {
     ): Promise<any> => {
       const currentConnectedUser = await getUserData(at)
       if (currentConnectedUser) {
-        const user = await getUserBy(
+        const user = await getUserById(
           {
             id: currentConnectedUser.id,
             email: currentConnectedUser.email,

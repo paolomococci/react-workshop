@@ -3,7 +3,7 @@ import { encrypt, isPasswordMatch } from '@contentpi/lib'
 import { IUser, IModels, IAuthPayload } from '../types'
 import { createToken } from './jwt'
 
-export const getUserBy = async (
+export const getUserById = async (
   where: any,
   models: IModels
 ): Promise<IUser> => {
