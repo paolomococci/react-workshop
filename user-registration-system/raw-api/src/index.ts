@@ -11,3 +11,12 @@ const schema = makeExecutableSchema(
     resolvers
   }
 )
+
+const apolloServer = new ApolloServer(
+  {
+    schema,
+    context: {
+      models
+    }
+  }
+)
