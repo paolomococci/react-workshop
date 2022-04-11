@@ -1,5 +1,6 @@
 import { ApolloServer } from 'apollo-server'
 import { makeExecutableSchema } from '@graphql-tools/schema'
+
 import models from './models'
 import resolvers from './graphql/resolvers'
 import typeDefs from './graphql/types'
@@ -20,3 +21,5 @@ const apolloServer = new ApolloServer(
     }
   }
 )
+
+cost alter = true
