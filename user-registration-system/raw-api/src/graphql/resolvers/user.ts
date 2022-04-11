@@ -36,6 +36,17 @@ export default {
       }
     ): Promise<any> => {
       const currentConnectedUser = await getUserData(at)
+      if (currentConnectedUser) {
+        const user = await getUserBy(
+          {
+            id: currentConnectedUser.id,
+            email: currentConnectedUser.email,
+            privilege: currentConnectedUser.privilege,
+            active: currentConnectedUser.active
+          },
+          models
+        )
+      }
     }
   },
   Mutation: {
