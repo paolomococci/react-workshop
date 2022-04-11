@@ -50,6 +50,14 @@ export default {
           return currentConnectedUser
         }
       }
+      return {
+        id: '',
+        username: '',
+        password: '',
+        email: '',
+        privilege: '',
+        active: false
+      }
     }
   },
   Mutation: {
