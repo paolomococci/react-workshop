@@ -78,6 +78,22 @@ export default {
         ...input
       }
     ),
-    login: () => {}
+    login: (
+      _: any,
+      {
+        input
+      }: {
+        input: ILoginInput
+      },
+      {
+        models
+      }: {
+        models: IModels
+      }
+    ): Promise<IAuthPayload> => doLogin(
+      input.email,
+      input.password,
+      models
+    )
   }
 }
