@@ -40,6 +40,6 @@ models.sequelize.sync(
       })
     ) => {
       console.log(`server listening on ${url}`)
-    }
+    })
   }
 )
