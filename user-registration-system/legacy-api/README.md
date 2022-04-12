@@ -12,4 +12,6 @@ nano .gitignore
 touch HELP.md
 touch README.md
 nano README.md
+touch .env
+nano .env
 ```
