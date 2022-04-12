@@ -15,3 +15,7 @@ nano README.md
 touch .env
 nano .env
 ```
+
+## proceed to install some dependencies
+
+### and some development dependencies
