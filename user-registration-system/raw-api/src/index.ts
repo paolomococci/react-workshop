@@ -16,9 +16,6 @@ const schema = makeExecutableSchema(
 const apolloServer = new ApolloServer(
   {
     schema,
-    context: {
-      models
-    }
   }
 )
 // TODO
