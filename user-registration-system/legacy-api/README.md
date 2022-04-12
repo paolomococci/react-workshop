@@ -18,4 +18,8 @@ nano .env
 
 ## proceed to install some dependencies
 
+```shell
+npm view @contentpi/lib versions
+```
+
 ### and some development dependencies
