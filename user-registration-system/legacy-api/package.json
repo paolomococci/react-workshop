@@ -4,7 +4,8 @@
   "keywords": [
     "API",
     "GraphQL",
-    "PostgreSQL"
+    "PostgreSQL",
+    "Apollo Server"
   ],
   "author": "Paolo Mococci",
   "license": "MIT",
