@@ -39,6 +39,7 @@ npm view pg-hstore versions
 npm i pg-hstore@2.3.3
 npm view sequelize versions
 npm i sequelize@6.6.2
+npm view ts-node versions
 ```
 
 ### and some development dependencies
