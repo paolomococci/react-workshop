@@ -35,6 +35,7 @@ npm view jsonwebtoken versions
 npm i jsonwebtoken@8.5.1
 npm view pg versions
 npm i pg@8.5.1
+npm view pg-hstore versions
 ```
 
 ### and some development dependencies
