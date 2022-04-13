@@ -47,7 +47,7 @@ npm i ts-node@9.1.1
 
 ```shell
 npm view husky versions
-npm i husky --save-dev
+npm i husky@6.0.0 --save-dev
 npm view jest versions
-npm i jest@26.6.3
+npm i jest@26.6.3 --save-dev
 ```
