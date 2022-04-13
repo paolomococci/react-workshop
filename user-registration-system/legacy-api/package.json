@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "keywords": [
     "API",
+    "Node.js",
     "GraphQL",
     "PostgreSQL",
     "Apollo Server"
