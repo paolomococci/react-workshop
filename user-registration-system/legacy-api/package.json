@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@contentpi/lib": "^1.0.2",
-    "@graphql-tools/load-files": "^6.3.2"
+    "@graphql-tools/load-files": "^6.3.2",
+    "@graphql-tools/merge": "^6.2.11"
   }
 }
