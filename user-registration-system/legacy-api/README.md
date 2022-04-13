@@ -31,6 +31,7 @@ npm view dotenv versions
 npm i dotenv@8.2.0
 npm view express versions
 npm i express@4.17.1
+npm view jsonwebtoken versions
 ```
 
 ### and some development dependencies
