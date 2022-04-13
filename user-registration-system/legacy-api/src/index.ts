@@ -24,4 +24,19 @@ const apolloServer = new ApolloServer(
   }
 )
 
-models.sequelize.sync()
+models.sequelize.sync(
+  {
+    alter,
+    force
+  }
+).then(() => {
+  apolloServer.listen(
+    $server.port
+  ).then(
+    ({
+      url
+    }) => {
+      console.log(`server at work on ${url}`)
+    }
+  )
+})
