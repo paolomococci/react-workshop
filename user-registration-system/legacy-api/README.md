@@ -20,6 +20,7 @@ nano .env
 
 ```shell
 npm view @contentpi/lib versions
+npm i @contentpi/lib@1.0.2
 ```
 
 ### and some development dependencies
