@@ -6,6 +6,7 @@ import typeDefs from './graphql/types'
 import { $server } from '../config'
 
 const alter = true
+const force = false
 
 const schema = makeExecutableSchema(
   {
