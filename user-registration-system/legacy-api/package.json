@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "keywords": [
     "API",
-    "GraphQL"
+    "GraphQL",
+    "PostgreSQL"
   ],
   "author": "Paolo Mococci",
   "license": "MIT",
