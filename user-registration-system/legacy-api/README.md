@@ -61,4 +61,5 @@ npm i ts-node-dev@1.1.6 --save-dev
 npm view typescript versions
 npm i typescript@4.2.3 --save-dev
 npm view eslint versions
+npm i eslint@7.23.0 --save-dev
 ```
