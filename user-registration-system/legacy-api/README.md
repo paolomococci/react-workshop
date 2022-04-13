@@ -34,6 +34,7 @@ npm i express@4.17.1
 npm view jsonwebtoken versions
 npm i jsonwebtoken@8.5.1
 npm view pg versions
+npm i pg@8.5.1
 ```
 
 ### and some development dependencies
