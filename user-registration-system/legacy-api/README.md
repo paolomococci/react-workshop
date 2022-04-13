@@ -44,3 +44,7 @@ npm i ts-node@9.1.1
 ```
 
 ### and some development dependencies
+
+```shell
+npm view husky versions
+```
