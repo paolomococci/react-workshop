@@ -24,6 +24,7 @@ npm i @contentpi/lib@1.0.2
 npm view @graphql-tools/load-files versions
 npm i @graphql-tools/load-files@6.3.2
 npm view @graphql-tools/merge versions
+npm i @graphql-tools/merge@6.2.11
 ```
 
 ### and some development dependencies
