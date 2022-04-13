@@ -2,3 +2,4 @@
 package-lock.json
 HELP.md
 .env
+config.json
