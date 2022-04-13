@@ -56,4 +56,5 @@ npm view sequelize-mock versions
 npm i sequelize-mock --save-dev
 npm view ts-jest versions
 npm i ts-jest@26.5.4 --save-dev
+npm view ts-node-dev versions
 ```
