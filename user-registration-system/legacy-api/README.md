@@ -38,6 +38,7 @@ npm i pg@8.5.1
 npm view pg-hstore versions
 npm i pg-hstore@2.3.3
 npm view sequelize versions
+npm i sequelize@6.6.2
 ```
 
 ### and some development dependencies
