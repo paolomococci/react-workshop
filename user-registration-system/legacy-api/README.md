@@ -21,6 +21,7 @@ nano .env
 ```shell
 npm view @contentpi/lib versions
 npm i @contentpi/lib@1.0.2
+npm view @graphql-tools/load-files versions
 ```
 
 ### and some development dependencies
