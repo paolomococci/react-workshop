@@ -63,4 +63,5 @@ npm i typescript@4.2.3 --save-dev
 npm view eslint versions
 npm i eslint@7.23.0 --save-dev
 npm view @types/jsonwebtoken versions
+npm i @types/jsonwebtoken@8.5.1 --save-dev
 ```
