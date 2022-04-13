@@ -14,7 +14,12 @@
   "description": "User Registration System API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "development": "ts-node-dev src/index.ts",
+    "start": "ts-node dist/index.js",
+    "build": "tsc -p .",
+    "lint": "eslint . --ext .js,.tsx,.ts",
+    "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
+    "test": "jest src"
   },
   "dependencies": {
     "@contentpi/lib": "^1.0.2",
