@@ -23,3 +23,5 @@ const apolloServer = new ApolloServer(
     }
   }
 )
+
+models.sequelize.sync()
