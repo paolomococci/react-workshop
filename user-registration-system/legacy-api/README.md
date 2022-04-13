@@ -25,6 +25,7 @@ npm view @graphql-tools/load-files versions
 npm i @graphql-tools/load-files@6.3.2
 npm view @graphql-tools/merge versions
 npm i @graphql-tools/merge@6.2.11
+npm view apollo-server versions
 ```
 
 ### and some development dependencies
