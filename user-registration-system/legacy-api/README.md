@@ -65,3 +65,17 @@ npm i eslint@7.23.0 --save-dev
 npm view @types/jsonwebtoken versions
 npm i @types/jsonwebtoken@8.5.1 --save-dev
 ```
+
+### some basic test
+
+```shell
+npm run test
+```
+
+response:
+
+```text
+
+> legacy-api@1.0.0 test
+> echo "Error: no test specified" && exit 1
+```
