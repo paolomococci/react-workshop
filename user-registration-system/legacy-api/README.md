@@ -27,6 +27,7 @@ npm view @graphql-tools/merge versions
 npm i @graphql-tools/merge@6.2.11
 npm view apollo-server versions
 npm i apollo-server@2.22.2
+npm view dotenv versions
 ```
 
 ### and some development dependencies
