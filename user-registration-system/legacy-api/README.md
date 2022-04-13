@@ -54,4 +54,5 @@ npm view prettier versions
 npm i prettier@2.2.1 --save-dev
 npm view sequelize-mock versions
 npm i sequelize-mock --save-dev
+npm view ts-jest versions
 ```
