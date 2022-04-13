@@ -30,6 +30,7 @@ npm i apollo-server@2.22.2
 npm view dotenv versions
 npm i dotenv@8.2.0
 npm view express versions
+npm i express@4.17.1
 ```
 
 ### and some development dependencies
