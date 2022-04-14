@@ -1,4 +1,19 @@
-import { User, Sequelize } from './types'
+import {
+  User,
+  Sequelize
+ } from './types'
+
+/* Sequelize */
+export interface IDataTypes {
+  UUID: string
+  UUIDV4(): string
+  STRING: string
+  BOOLEAN: boolean
+  TEXT: string
+  INTEGER: number
+  DATE: string
+  FLOAT: number
+}
 
 /* User */
 export interface IUser extends User, Sequelize {
@@ -19,18 +34,6 @@ export interface ILoginInput {
 
 export interface IAuthPayload {
   token: string
-}
-
-/* Sequelize */
-export interface IDataTypes {
-  UUID: string
-  UUIDV4(): string
-  STRING: string
-  BOOLEAN: boolean
-  TEXT: string
-  INTEGER: number
-  DATE: string
-  FLOAT: number
 }
 
 /* Models */
