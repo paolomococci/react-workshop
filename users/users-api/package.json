@@ -4,7 +4,10 @@
   "description": "example of API application developed thanks to GraphQL",
   "keywords": [
     "API",
-    "GraphQL"
+    "Node.js",
+    "GraphQL",
+    "PostgreSQL",
+    "Apollo Server"
   ],
   "author": "Paolo Mococci",
   "license": "MIT",
