@@ -1,8 +1,14 @@
 {
   "name": "users-api",
   "version": "1.0.0",
-  "description": "example of GraphQL API",
-  "keywords": [],
+  "description": "GraphQL API example, for registering users in the system",
+  "keywords": [
+    "API",
+    "Node.js",
+    "GraphQL",
+    "PostgreSQL",
+    "Apollo Server"
+  ],
   "author": "Paolo Mococci",
   "license": "MIT",
   "main": "index.js",
