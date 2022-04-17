@@ -10,7 +10,7 @@ type User {
 }
 
 type Query {
-  getUser: [User!]
+  getUsers: [User!]
   getUserData(at: String!): User!
 }
 
