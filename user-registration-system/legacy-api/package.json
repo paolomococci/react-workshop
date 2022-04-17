@@ -21,6 +21,16 @@
     "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
     "test": "jest src"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  },
   "dependencies": {
     "@contentpi/lib": "^1.0.2",
     "@graphql-tools/load-files": "^6.3.2",
