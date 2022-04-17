@@ -69,13 +69,5 @@ npm i @types/jsonwebtoken@8.5.1 --save-dev
 ### some basic test
 
 ```shell
-npm run test
-```
-
-response:
-
-```text
-
-> legacy-api@1.0.0 test
-> echo "Error: no test specified" && exit 1
+npm run development
 ```
