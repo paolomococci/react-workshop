@@ -13,3 +13,9 @@ npm init --yes
 ```shell
 npm install
 ```
+
+## run in development mode
+
+```shell
+npm run dev
+```
