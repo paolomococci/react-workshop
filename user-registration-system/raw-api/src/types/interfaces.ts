@@ -5,7 +5,7 @@ export interface IUser extends User, Sequelize {
   id: string
   token?: string
   createdAt?: Date
-  updatedAt?: date
+  updatedAt?: Date
 }
 
 export interface ICreateUserInput extends User {
