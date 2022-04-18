@@ -1,0 +1,58 @@
+{
+  "name": "users-api",
+  "version": "1.0.0",
+  "keywords": [
+    "API",
+    "Node.js",
+    "GraphQL",
+    "PostgreSQL",
+    "Apollo Server"
+  ],
+  "author": "Paolo Mococci",
+  "license": "MIT",
+  "private": true,
+  "description": "User Registration System API",
+  "main": "index.js",
+  "scripts": {
+    "development": "ts-node-dev src/index.ts",
+    "start": "ts-node dist/index.js",
+    "build": "tsc -p .",
+    "lint": "eslint . --ext .js,.tsx,.ts",
+    "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
+    "test": "jest src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  },
+  "dependencies": {
+    "@contentpi/lib": "^1.0.2",
+    "@graphql-tools/load-files": "^6.3.2",
+    "@graphql-tools/merge": "^6.2.11",
+    "apollo-server": "^2.22.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.1",
+    "eslint": "^7.23.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "sequelize-mock": "^0.10.2",
+    "ts-jest": "^26.5.4",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}
