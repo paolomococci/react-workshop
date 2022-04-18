@@ -14,3 +14,10 @@ npm init --yes
 npm install
 npm ci
 ```
+
+Unfortunately even this last precaution does not bring good results.
+After removing directory x and file y, I tried with the following commands:
+
+```shell
+yarn install --immutable --immutable-cache --check-cache && yarn run development
+```
