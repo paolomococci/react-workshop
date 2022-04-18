@@ -11,7 +11,7 @@ npm init --yes
 ## and after having appropriately modified the package.json, I used the command:
 
 ```shell
-npm ci
+npm install
 ```
 
 ### finally, run in development mode
