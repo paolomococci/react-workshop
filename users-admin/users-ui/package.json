@@ -1,0 +1,16 @@
+{
+  "name": "users-ui",
+  "version": "1.0.0",
+  "description": "User Registration System Frontend",
+  "keywords": [
+    "UI",
+    "Frontend"
+  ],
+  "author": "Paolo Mococci",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
