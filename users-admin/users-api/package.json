@@ -14,11 +14,11 @@
   "description": "User Registration System API",
   "main": "index.js",
   "scripts": {
-    "development": "ts-node-dev src/index.ts",
-    "start": "ts-node dist/index.js",
     "build": "tsc -p .",
+    "dev": "ts-node-dev src/index.ts",
     "lint": "eslint . --ext .js,.tsx,.ts",
     "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
+    "start": "ts-node dist/index.js",
     "test": "jest src"
   },
   "husky": {
