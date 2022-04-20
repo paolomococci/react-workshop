@@ -11,7 +11,15 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "clean": "rimraf dist/ && rimraf public/app",
+    "dev": "ts-node-dev src/server",
+    "lint": "eslint . --ext .js,.tsx,.ts",
+    "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
+    "start": "ts-node src/server",
+    "test": "jest src",
+    "test:coverage": "jest src --coverage",
+    "webpack": "cross-env NODE_ENV=development webpack serve --mode development"
   },
   "dependencies": {
     "@apollo/client": "3.3.14",
