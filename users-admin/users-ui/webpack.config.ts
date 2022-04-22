@@ -1,12 +1,10 @@
 import path = require('path')
-import webpack, {
-  Configuration
-} from 'webpack'
+import webpack = require('webpack')
 import HtmlWebPackPlugin = require('html-webpack-plugin')
 
 const isProduction = process.env.NODE_ENV === 'production'
 
-const webpackConfig: Configuration = {
+const webpackConfig: webpack.Configuration = {
   devtool: !isProduction ? 'source-map' : false,
   target: 'web',
   mode: isProduction ? 'production' : 'development',
