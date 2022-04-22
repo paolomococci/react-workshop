@@ -72,3 +72,5 @@ const webpackConfig: Configuration = {
     )
   ]
 }
+
+export default webpackConfig
