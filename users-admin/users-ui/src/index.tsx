@@ -3,4 +3,4 @@ import {
   ApolloProvider,
   ApolloClient,
   InMemoryCache
-} from '@apollo/client';
+} from '@apollo/client'
