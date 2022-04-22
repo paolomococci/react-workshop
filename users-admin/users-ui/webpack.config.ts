@@ -1,8 +1,8 @@
-import path from 'path'
+import path = require('path')
 import webpack, {
   Configuration
 } from 'webpack'
-import HtmlWebPackPlugin from 'html-webpack-plugin'
+import HtmlWebPackPlugin = require('html-webpack-plugin')
 
 const isProduction = process.env.NODE_ENV === 'production'
 
