@@ -15,16 +15,11 @@ const webpackConfig: webpack.Configuration = {
     publicPath: '/'
   },
   resolve: {
-    extensions: [
-      '.ts',
-      '.tsx',
-      '.js',
-      '.json'
-    ],
+    extensions: ['.ts', '.tsx', '.js', '.json'],
     fallback: {
       buffer: require.resolve('buffer'),
-      crypto: require.resolve("crypto-browserify"),
-      stream: require.resolve("stream-browserify")
+      crypto: require.resolve('crypto-browserify'),
+      stream: require.resolve('stream-browserify')
     }
   },
   module: {
@@ -55,19 +50,17 @@ const webpackConfig: webpack.Configuration = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new HtmlWebPackPlugin(
-      {
-        /**
+    new HtmlWebPackPlugin({
+      /**
         in a development environment,
         (webpack-dev-server),
         our requests will point to the address:
         127.0.0.1:8080
         */
-        template: './src/index.html',
-        filename: './index.html',
-        publicPath: !isProduction ? 'http://localhost:8080/' : ''
-      }
-    )
+      template: './src/index.html',
+      filename: './index.html',
+      publicPath: !isProduction ? 'http://localhost:8080/' : ''
+    })
   ]
 }
 
