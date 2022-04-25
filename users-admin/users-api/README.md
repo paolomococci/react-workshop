@@ -22,7 +22,7 @@ npm run dev
 
 ## example of use
 
-### mutation
+### mutation, I add a dummy user
 
 ```text
 mutation {
@@ -60,7 +60,7 @@ follows as a result:
 }
 ```
 
-### query
+### query, I request the entire list of registered users, but of these, only three of the eight provided by the system
 
 ```text
 query {
