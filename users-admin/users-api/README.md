@@ -17,5 +17,5 @@ npm install
 ### finally, run in development mode
 
 ```shell
-npm run development
+npm run dev
 ```
