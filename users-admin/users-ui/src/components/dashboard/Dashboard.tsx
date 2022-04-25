@@ -2,7 +2,11 @@ interface IProps {
   connectedUser: any
 }
 
-const Dashboard = ({ connectedUser }) => (
+const Dashboard = (
+  {
+    connectedUser
+  }
+) => (
   <div className="dashboard">
     <h1>welcome, {connectedUser.username}!</h1>
 
